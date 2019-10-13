@@ -1,3 +1,3 @@
 # Todo-App
-## This app is not ready at the moment!
+## This app is at pre-alpha version currently!
 Simple todo app written with JQuery

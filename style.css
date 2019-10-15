@@ -27,7 +27,7 @@ p {
 
 #todoInput {
 
-    width: 500px;
+    width: 45%;
     height: 30px;
 
 }
@@ -44,11 +44,11 @@ p {
     position: relative;
     background-color:  #6af2db ;
     height: 41px;
-    width: 43px;
+    width: 41px;
     z-index: 1;
     top: 20px;
     margin-left: 5px;
-    opacity: 0.7;
+    opacity: 0.6;
     border: 3px solid grey;
     border-radius: 10%;
 
@@ -61,18 +61,52 @@ p {
 
 #todoBox {
 
-    width: 600px;
+    width: 35em;
     height: 40px;
-    margin: 40px auto;
-    display: none;
+    margin: 1.8em auto;
     font-family: 'Mansalva', cursive;
     z-index: -1;
+    background-color: #dccaf5;
+    opacity: .8;
+    font-size: 110%;
+    border: 3px solid grey;
+    border-radius: 5%;
+    margin-left: 16em;
+    font-size: 120%;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 40px;
+    color: black;
 
 }  
 
 #todo {
 
-    z-index = 1;
+    z-index = 2;
 
 }
+
+#todoText {
+
+    font-size: 130%;
+
+}
+
+#imageR {
+
+    width: 40px;
+    height: 51.6px;
+    position: relative;
+    left: 2.3em;
+    bottom: .24em;
+    float: right;
+
+}
+
+#loading
+
+{position:fixed;
+    top:50%;
+    left:50%;
+    z-index:1104;}
 
